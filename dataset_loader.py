@@ -1,4 +1,3 @@
-
 import pandas as pd
 from preprocessing import bersihkan_teks
 from mitigasi import rekomendasi_mitigasi
@@ -17,4 +16,4 @@ def load_dataset(csv_path):
     # Bersihkan teks
     data["text"] = data["text"].apply(bersihkan_teks)
 
-    return data
+    return data 
