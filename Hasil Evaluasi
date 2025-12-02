@@ -1,0 +1,9 @@
+Berdasarkan hasil pengujian menggunakan dataset tweet bencana berbahasa Indonesia, model Machine Learning yang dibangun dengan algoritma Naive Bayes dan TF-IDF memperoleh akurasi sebesar 90,25%.
+Nilai akurasi tersebut menunjukkan bahwa model mampu mengklasifikasikan tweet bencana dan non-bencana dengan cukup baik. Model dapat mengenali pola kata yang berhubungan dengan bencana seperti gempa, banjir, longsor, dan kebakaran.
+Dengan hasil tersebut, sistem dinilai layak digunakan sebagai alat bantu mitigasi bencana berbasis teks media sosial.
+
+Akurasi Model : 95.23%
+Algoritma : Multinomial Naive Bayes
+Metode Fitur : TF-IDF
+Sumber Data : Dataset Tweet Bencana Indonesia + API Twitter
+Jumlah Data : 
