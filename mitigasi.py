@@ -15,3 +15,5 @@ def rekomendasi_mitigasi(tweet):
 
     else:
         return "Pantau informasi resmi BPBD", "RENDAH"
+
+
