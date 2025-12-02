@@ -5,5 +5,5 @@ Dengan hasil tersebut, sistem dinilai layak digunakan sebagai alat bantu mitigas
 Akurasi Model : 95.23%
 Algoritma : Multinomial Naive Bayes
 Metode Fitur : TF-IDF
-Sumber Data : Dataset Tweet Bencana Indonesia + API Twitter
+Sumber Data : Dataset KAGGLE Bencana Indonesia + API Twitter (Postingan Bencana Indonesia)
 Jumlah Data : 
