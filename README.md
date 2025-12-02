@@ -1,1 +1,4 @@
-# Mitigasi-Bencana-Kelompok-4
+# Sistem Mitigasi Bencana Berbasis Machine Learning dengan Twitter API dan Dataset KAGGLE
+Sistem Mitigasi Bencana ini merupakan aplikasi berbasis Python dan Machine Learning yang digunakan untuk mendeteksi dan mengklasifikasikan informasi bencana dari media sosial (Twitter/X) serta data CSV. Sistem ini memanfaatkan dataset berbahasa Indonesia untuk melatih model klasifikasi menggunakan algoritma Naive Bayes dengan TF-IDF Vectorizer. Hasil klasifikasi akan mengelompokkan data ke dalam kategori Bencana atau Non-Bencana, serta secara otomatis menampilkan tingkat risiko dan rekomendasi mitigasi yang sesuai.
+
+Aplikasi ini dirancang secara interaktif melalui terminal, di mana pengguna dapat memilih sumber data dari Twitter API, dataset CSV, maupun input manual, dan hasilnya akan ditampilkan dalam bentuk tabel yang rapi dan informatif. Sistem juga dilengkapi dengan fallback otomatis ke data CSV apabila API Twitter mengalami limit, sehingga aplikasi tetap dapat berjalan tanpa gangguan. Proyek ini sangat cocok digunakan sebagai media pembelajaran data mining, machine learning, dan mitigasi bencana berbasis teknologi informasi.
