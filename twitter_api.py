@@ -1,6 +1,3 @@
-# ===============================
-# FILE: twitter_api.py
-# ===============================
 import requests
 from config import BEARER_TOKEN, QUERY, MAX_TWEETS
 
@@ -22,4 +19,5 @@ def ambil_tweet():
         return list(set(tweets)), "API TWITTER"
 
     except:
+
         return None, "ERROR"
