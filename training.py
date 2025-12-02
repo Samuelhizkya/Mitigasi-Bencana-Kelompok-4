@@ -1,6 +1,4 @@
 # ===============================
-# FILE: model_training.py
-# ===============================
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
@@ -24,5 +22,6 @@ def train_model(data):
     # Evaluasi
     pred = model.predict(X_test_vec)
     accuracy = accuracy_score(y_test, pred) * 100
+
 
     return model, vectorizer, accuracy
