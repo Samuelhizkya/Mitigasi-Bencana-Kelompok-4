@@ -1,6 +1,5 @@
 import re
 
-# Membersihkan teks tweet
 def bersihkan_teks(teks):
     teks = teks.lower()
     teks = re.sub(r"http\S+", "", teks)
