@@ -19,9 +19,10 @@ def train_model(data):
     model = MultinomialNB()
     model.fit(X_train_vec, y_train)
 
-    # Evaluasi
+    # Evaluasi 
     pred = model.predict(X_test_vec)
     accuracy = accuracy_score(y_test, pred) * 100
 
 
     return model, vectorizer, accuracy
+
